@@ -1,0 +1,15 @@
+body {
+    background: #182944;
+    color: white;
+}
+p {font-size: 16px;
+    text-align: center;
+
+}
+
+#testing1 {font-family: fantasy;
+text-size: 20px;
+}
+
+#testing2 {font-family: inherit}
+#testing3 {font-family: cursive}

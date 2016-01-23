@@ -16,10 +16,17 @@ body {
   margin: 0 auto;
 }
 
-.header {background: silver;}
+.header {background: silver;
+}
 .top-links {text-decoration: none;
 }
 span {background: gray;
 border: 1px;
 padding: 7px;
 border-radius: 5px;}
+ 
+img {border: dotted slategray;
+  width: 190px;
+    padding: 8px;}
+    
+    footer {border: dotted slategray;}

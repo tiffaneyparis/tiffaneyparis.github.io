@@ -17,6 +17,8 @@ body {
 }
 
 .header {background: silver;}
+.top-links {text-decoration: none;
+}
 span {background: gray;
 border: 1px;
 padding: 7px;

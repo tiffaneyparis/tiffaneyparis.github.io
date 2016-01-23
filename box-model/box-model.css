@@ -16,17 +16,23 @@ body {
   margin: 0 auto;
 }
 
-.header {background: silver;
+.header {background: #EDEDED;
 }
 .top-links {text-decoration: none;
+    color: white;
 }
-span {background: gray;
+span {background: lightslategray;
 border: 1px;
 padding: 7px;
 border-radius: 5px;}
  
 img {border: dotted slategray;
   width: 190px;
-    padding: 8px;}
+    padding: 8px;
+float: left;
+margin: 9px;}
     
-    footer {border: dotted slategray;}
+    footer {border: dotted slategray;
+padding-bottom: 15px;}
+
+.footer-links {color: slategray}

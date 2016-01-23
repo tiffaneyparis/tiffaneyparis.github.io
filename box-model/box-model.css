@@ -1,13 +1,23 @@
 body {
   margin: 20px;
+  font-family: "helvetica neue";
+  
 }
 
 * {
   box-sizing: border-box;
 }
 
+
 #wrapper {
   border: 2px dotted slategray;
   width: 800px;
+  padding: 15px;
   margin: 0 auto;
 }
+
+.header {background: silver;}
+span {background: gray;
+border: 1px;
+padding: 7px;
+border-radius: 5px;}

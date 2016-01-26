@@ -21,6 +21,10 @@ body {
 .top-links {text-decoration: none;
     color: white;
 }
+
+a:hover {color: goldenrod;}
+
+
 span {background: lightslategray;
 border: 1px;
 padding: 7px;

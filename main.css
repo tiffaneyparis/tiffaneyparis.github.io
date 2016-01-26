@@ -1,26 +1,41 @@
 .bodyClass {
     background: black;
     color: whitesmoke;
+    font-family: sans-serif;
+}
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {background: cornsilk;
+color: black;
+padding: 3px;}
+.top-links {text-decoration: none;
+    color: white;
 }
 p {font-size: 16px;
     text-align: center;
+    font-family: sans-serif
 
 }
 
-#testing1 {font-family: fantasy;
+#testing1 {font-family: sans-serif;
 text-size: 20px;
 }
 
-#testing2 {font-family: monospace}
-#testing3 {font-family: cursive}
+#testing2 {font-family: sans-serif;}
+#testing3 {font-family: sans-serif;}
 
 .large {
     font-size: 30px;
     font-weight: bold;}
-.green {background: #C9FFDF;
+.first {background: #C9FFDF;
 color: black;}
 
-.dkgreen {background: #45E8AC;
+.second {background: #45E8AC;
     color: black;}
 img {height: 300px; 
     width: 220px;

@@ -4,13 +4,14 @@
     font-family: sans-serif;
 }
 
+
 }
 
 * {
   box-sizing: border-box;
 }
 
-.header {background: cornsilk;
+.header {background: burlywood;
 color: black;
 padding: 3px;}
 .top-links {text-decoration: none;
@@ -32,11 +33,17 @@ text-size: 20px;
 .large {
     font-size: 30px;
     font-weight: bold;}
-.first {background: #C9FFDF;
-color: black;}
+.first {background: blanchedalmond;
+color: black;
+  text-decoration: none;
+  
+}
 
-.second {background: #45E8AC;
-    color: black;}
+.second {background: cadetblue;
+    color: black;
+  text-decoration: none;
+}
+
 img {height: 300px; 
     width: 220px;
 
@@ -45,4 +52,6 @@ background: #black;
   float: right;
  }
 
-.square {
+.footer {text-align: center;
+}
+.links {text-decoration: none;}

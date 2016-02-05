@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+    
+.main-container {
+    width: 1000px;
+ margin: 0 auto 0 auto;   
+}
+
+.promo-container {
+    background: lightgray;
+
+}
+    
+header {
+ display: flex;
+    
+    
+}
+
+.branding {
+    background: black;
+    width: 150px;
+    height: 45px;
+    margin-right: auto;
+    
+}
+
+.pill-button
+{
+  display: inline-block;
+    background: gray;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* Big Promo*/
+
+#big-promo {
+    padding-top: 200px;
+   
+    
+}
+
+.promo-message {
+    width: 60%;
+    padding: 50px;
+    
+}
+    
+ .promo {
+     background: white;
+     color: black;
+     font-size: 18px;
+ }
+    

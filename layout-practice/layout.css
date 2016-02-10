@@ -10,21 +10,17 @@
 
 .promo-container {
     background: lightgray;
-
 }
     
 header {
- display: flex;
-    
-    
+ display: flex; 
 }
 
 .branding {
     background: black;
     width: 150px;
     height: 45px;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 
 .pill-button
@@ -34,8 +30,7 @@ header {
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
  .promo {
@@ -48,14 +43,34 @@ header {
 /* Big Promo*/
 
 #big-promo {
-    padding-top: 200px;
-   
-    
+    padding-top: 200px; 
 }
 
 .promo-message {
     width: 60%;
-    padding: 50px;
-    
+    padding: 50px;  
+}
+
+/* Product Features */
+
+.product-features {
+    display: flex;  
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;   
 }
     
+
+.feature-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;    
+}
+
+.buy-it-now {
+    
+}

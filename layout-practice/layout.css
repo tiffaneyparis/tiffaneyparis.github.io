@@ -38,6 +38,13 @@ header {
     
 }
 
+ .promo {
+     background: white;
+     color: black;
+     font-size: 18px;
+ }
+    
+
 /* Big Promo*/
 
 #big-promo {
@@ -51,10 +58,4 @@ header {
     padding: 50px;
     
 }
-    
- .promo {
-     background: white;
-     color: black;
-     font-size: 18px;
- }
     

@@ -53,8 +53,9 @@ header {
 
 /* Product Features */
 
-.product-features {
+.product-features, .product-buy-it-now {
     display: flex;  
+    
 }
 
 .feature {
@@ -71,6 +72,20 @@ header {
     overflow: hidden;    
 }
 
-.buy-it-now {
-    
+.product-buy-it-now{
+    align-items: center;
+
+}
+.product-info {
+ text-align: right;   
+        
+}
+
+/* Product Reviews */
+
+#product-reviews {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }

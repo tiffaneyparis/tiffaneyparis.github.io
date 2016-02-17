@@ -1,48 +1,71 @@
 
 
 .pagecontainer {
+
     width: 960px;
-    height: inherit;
-    padding: 130px;
-    outline-color: black;
-    outline-width: thin;
-     
+    padding: 130px 30px 130px 30px
 
-}
-
-.firstbox_1 { 
-	position: absolute;
-	width: 200px;
-	height: 200px;
-  top: 0;
-  left: 0;
-	background: red;
-}
-
-.firstbox_2 { 
-	position: absolute;
-	width: 200px;
-	height: 200px;
-  top: 0;
-  right: 0;
-	background: green;
-}
-
-.firstbox_3 { 
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	background: blue;
-  left: 0;
-  bottom: 0;
-}
-
-.firstbox_4 {
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	background: yellow;
-  right: 0;
-  bottom: 0;
-}
     
+}
+
+
+    
+.secondcontainer {
+    display: flex;
+    border: 4px solid black;
+    margin-bottom: 130px;
+      
+}
+.secondbox_1 {  
+    background-color: red;
+    width: 240px;
+    height: 570px;
+}
+
+.secondbox_2 {
+    background-color: green;
+    width: 240px;
+    height: 570px;
+        
+}
+
+.secondbox_3 {
+    background-color: blue;
+    width: 240px;
+    height: 570px;
+}
+
+.secondbox_4 {
+    background-color: yellow;
+    width: 240px;
+    height: 570px;
+}
+
+.thirdcontainer {
+
+    border: 4px solid black;
+    height: 575px;
+    
+        
+}
+
+.thirdbox_1 {
+    background-color: red;
+    width: 920px;
+    height: 120px;
+}
+
+.thirdbox_2 {
+    background-color: green;
+    width: 175px;
+    height: 395px;
+    
+}
+
+.thirdbox_3 {
+    background-color: blue;
+    width: 730px;
+    height: 395px;
+}
+
+section {display: flex;}

@@ -89,3 +89,18 @@ header {
     text-align: center;
     padding: 50px;
 }
+
+footer {
+    display: flex;
+    background: pink;
+}
+
+.footer-links {
+
+}
+
+.footer-copyright {
+    text-align: right;
+    
+
+}

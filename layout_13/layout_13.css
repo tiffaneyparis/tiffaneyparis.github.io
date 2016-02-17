@@ -1,10 +1,56 @@
 
 
 .pagecontainer {
-
     width: 960px;
     padding: 130px; 
 }
+
+.firstcontainer {
+    width: 920px;
+    height: 570px;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    
+}
+
+#firstbox_1 { 
+	position: absolue;
+	width: 200px;
+	height: 200px;
+  top: 0;
+  left: 0;
+	background: red;
+}
+
+#firstbox_2 { 
+	position: absolute;
+	width: 200px;
+	height: 200px;
+  top: 0;
+  right: 0;
+	background: green;
+}
+
+#firstbox_3 { 
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: blue;
+  left: 0;
+  bottom: 0;
+}
+
+#firstbox_4 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: yellow;
+  right: 0;
+  bottom: 0;
+}
+
+
+
 
 .secondcontainer {
     display: flex;
@@ -66,4 +112,4 @@
     margin-left: 20px;
 }
 
-section {display: flex;}
+.middle, .top {display: flex;}

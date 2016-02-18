@@ -1,31 +1,52 @@
 
-
-.wholepagecontainer {
-
-    margin: 130px; 
-    
-    
-}
 .firstcontainer {
+    postion: relative;
     border: 4px solid black;
     margin-bottom: 130px; 
     height: 570px;
     width; 960px;  
 }
 
+
 .firstbox_1 {
-    position: absolute;
+   position: absolute;
     width: 200px;
     height: 200px;
     background: red;
+    top: 0;
+    left: 0;
 }
 
 .firstbox_2 {
-    align: left;
+    position: absolute;
     width: 200px;
     height: 200px;
     background: green;
-    left: 0px;
+    top: 0;
+    right: 0;
+
+
+}
+
+.firstbox_3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    bottom: 0;
+    left: 0;
+
+}
+
+.firstbox_4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    bottom: 0;
+    right: 0;
+    
+
 }
 
 

@@ -1,52 +1,65 @@
 
 .firstcontainer {
-    postion: relative;
     border: 4px solid black;
     margin-bottom: 130px; 
     height: 570px;
-    width; 960px;  
+    width: 960px;  
 }
 
+.onethird {
+    width: 960px;
+    height: 190px;
+    
+}
 
 .firstbox_1 {
-   position: absolute;
     width: 200px;
     height: 200px;
     background: red;
-    top: 0;
-    left: 0;
+    float: left;
+   
 }
 
 .firstbox_2 {
-    position: absolute;
+    
     width: 200px;
     height: 200px;
     background: green;
-    top: 0;
-    right: 0;
-
-
+   float: right;
+    
 }
 
+.twothirds {
+     width: 960px;
+    height: 190px;
+    
+}
+
+
+
+.threethirds {
+     width: 960px;
+    height: 190px;
+    
+    
+}
 .firstbox_3 {
-    position: absolute;
+  
     width: 200px;
     height: 200px;
     background: blue;
-    bottom: 0;
-    left: 0;
+    float: left;
+  
 
 }
 
 .firstbox_4 {
-    position: absolute;
+   
     width: 200px;
     height: 200px;
     background: yellow;
-    bottom: 0;
-    right: 0;
-    
-
+    float: right;
+  
 }
 
 

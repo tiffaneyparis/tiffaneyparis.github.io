@@ -1,7 +1,7 @@
 
 .firstcontainer {
     border: 4px solid black;
-    margin-bottom: 130px; 
+    margin: 130px; 
     height: 570px;
     width: 960px;  
 }
@@ -31,7 +31,7 @@
 
 .twothirds {
      width: 960px;
-    height: 190px;
+    height: 180px;
     
 }
 
@@ -66,7 +66,7 @@
 .secondcontainer {
     display: flex;
     border: 4px solid black;
-    margin-bottom: 130px; 
+    margin: 130px; 
     height: 570px;
     width: 960px;
 }
@@ -101,7 +101,7 @@
     border: 4px solid black;
     height: 570px;
     width: 960px;
-    margin-bottom: 130px;
+    margin: 130px;
        
 }
 

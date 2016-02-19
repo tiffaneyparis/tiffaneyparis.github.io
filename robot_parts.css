@@ -2,40 +2,100 @@
 box-sizing: border-box;
 }
 
-.head, .neck {
-    position: absolute;
+
+.head {
+    position: relative;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 .head {
-    position: absolute;
     width: 400px;
     height: 200px;
     border: 1px solid black;
-    background: lightgray;
-    border-radius: 85%;
+ 
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(18%, rgba(219,219,219,1)), color-stop(25%, rgba(209,209,209,1)), color-stop(32%, rgba(209,209,209,1)), color-stop(63%, rgba(245,245,245,1)), color-stop(81%, rgba(184,182,184,1)), color-stop(100%, rgba(184,182,184,1)));
+background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#b8b6b8', GradientType=1 );
 }
 
-.neck {
+.neck_top {
     position: absolute;
-    width: 150px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border: 1px solid black;
-    background: orange;
-    top: 200px;
+    background: darkgray;
+    top: 198px;
+    right: 140px
   
 }
 
-.eye { 
-  width: 150px;
-  height: 40px;
-  background: lightgreen;
+.neck_bot {
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    border: 1px solid black;
+    background: black;
+    top: 230px;
+    right: 110px;
+  
+}
+
+.eye_r { 
+  width: 100px;
+  height: 100px;
   position: absolute;
-  top: 55px;
-  right: 530px;
-  border: 1px solid black;
+  top: 28px;
+  right: 230px;
+  border: 2px dashed black;
+  border-radius: 50%;
+  /* IE10+ */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #F7FF17 0%, #F56845 50%, #FAF4C3 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #F7FF17 0%, #F56845 50%, #FAF4C3 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #F7FF17 0%, #F56845 50%, #FAF4C3 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 242, color-stop(0, #F7FF17), color-stop(50, #F56845), color-stop(100, #FAF4C3));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #F7FF17 0%, #F56845 50%, #FAF4C3 100%);
+
+  
+}
+
+.eye_l { 
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 28px;
+  right: 80px;
+  border: 2px dashed black;
+  border-radius: 50%;
+  /* IE10+ */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #F7FF17 0%, #F56845 50%, #FAF4C3 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #F7FF17 0%, #F56845 50%, #FAF4C3 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #F7FF17 0%, #F56845 50%, #FAF4C3 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 242, color-stop(0, #F7FF17), color-stop(50, #F56845), color-stop(100, #FAF4C3));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #F7FF17 0%, #F56845 50%, #FAF4C3 100%);
+
   
 }
 
@@ -46,29 +106,62 @@ box-sizing: border-box;
     border: 1px solid black;
     background: lightgray;
     top: 100px;
-    right: 310px;
+    right: 398px;
    
 }
 .ant_bulb_right {
   position: absolute;
    width: 50px;
     height: 50px;
-    border: 1px solid black;
-    background: red;
-    top: 85px;
-    right: 285px;
-  border-radius: 50%;
+    border: 4px dotted black;
+    top: 80px;
+    right: 490px;
+    border-radius: 50%;
+    /* IE10+ */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 242, color-stop(0, #FF0000), color-stop(50, #FFFF00), color-stop(100, #ff0000));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
+
+/* W3C Markup */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
 }
+
 
 .ant_bulb_left {
   position: absolute;
    width: 50px;
     height: 50px;
-    border: 1px solid black;
-    background: red;
-    top: 85px;
-    left: 285px;
+    border: 4px dotted black;
+    top: 80px;
+    left: 485px;
   border-radius: 50%;
+  /* IE10+ */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 242, color-stop(0, #FF0000), color-stop(50, #FFFF00), color-stop(100, #ff0000));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
+
+/* W3C Markup */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #FF0000 0%, #FFFF00 50%, #ff0000 100%);
 }
 
 .ant_left { 
@@ -78,16 +171,156 @@ box-sizing: border-box;
     border: 1px solid black;
     background: lightgray;
     top: 100px;
-    left: 310px;
+    left: 398px;
 }
 
 .mouth{ 
  position: absolute;
     width: 100px;
-    height: 30px;
-    border: 1px solid black;
-    background: darkgray;
-    top: 150px;
-    left: 565px;
+    height: 50px;
+    background: black;
+    top: 140px;
+    left: 150px;
 }
 
+.bodyparts {
+  position: relative;
+}
+
+.chest {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 250px;
+  border: 1px solid black;
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(18%, rgba(219,219,219,1)), color-stop(25%, rgba(209,209,209,1)), color-stop(32%, rgba(209,209,209,1)), color-stop(63%, rgba(245,245,245,1)), color-stop(81%, rgba(184,182,184,1)), color-stop(100%, rgba(184,182,184,1)));
+background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(209,209,209,1) 25%, rgba(209,209,209,1) 32%, rgba(245,245,245,1) 63%, rgba(184,182,184,1) 81%, rgba(184,182,184,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#b8b6b8', GradientType=1 );
+}
+
+.hips, .stand, .roller, .baseline {
+  position: absolute;
+}
+
+.hips {
+  width: 300px;
+  height: 125px;
+  background: black;
+  top: 450px;
+  right: 50px;
+  border-radius: 0% 0% 90% 90%
+}
+
+.stand {
+  width: 100px;
+  height: 60px;
+  background: black;
+  top: 540px;
+  right: 145px;
+}
+
+.roller {
+   width: 200px;
+  height: 200px;
+  background: black;
+  top: 586px;
+  right: 94px;
+  border-radius: 50%;
+  /* IE10+ */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1b1b1b 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1b1b1b 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1b1b1b 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 242, color-stop(0, #959595), color-stop(46, #0D0D0D), color-stop(50, #010101), color-stop(53, #0A0A0A), color-stop(76, #4E4E4E), color-stop(87, #383838), color-stop(100, #1b1b1b));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1b1b1b 100%);
+
+/* W3C Markup */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1b1b1b 100%);
+}
+
+.arm_l, .arm_r, .shoulder_l, .shoulder_r {
+  position: absolute;
+}
+
+.arm_l {
+  width: 50px;
+  height: 300px;
+  background: black;
+  top: 250px;
+  right: 398px;
+}
+
+.arm_r {
+  width: 50px;
+  height: 300px;
+  background: black;
+  top: 250px;
+  right: -50px;
+}
+
+.shoulder_l {
+  width: 80px;
+  height: 80px;
+  background: darkgray;
+  top: 230px;
+  left: -70px;
+  border-radius: 50%;
+}
+
+.shoulder_r {
+  width: 80px;
+  height: 80px;
+  background: darkgray;
+  top: 230px;
+  right: -75px;
+  border-radius: 50%;
+}
+
+.hand_L1, .hand_L2, .hand_R1, .hand_R2 {
+  position: absolute;
+  background: red;
+  height: 50px;
+  width: 20px;
+  top: 550px;
+}
+
+.hand_L1 {
+  left: -50px;
+  
+}
+.hand_L2 {
+  left: -20px;
+}
+.hand_R1 {
+  right: -20px;
+  
+}
+.hand_R2 {
+  right: -50px;
+  
+}
+
+.nametag {
+   width: 80px;
+  height: 80px;
+  background: darkgray;
+  top: 230px;
+  right: -75px;
+  
+}
+
+.control {
+  
+}

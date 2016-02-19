@@ -2,7 +2,7 @@
 box-sizing: border-box;
 }
 
-.head {
+.head, .neck {
     position: absolute;
     left: 0;
     right: 0;
@@ -11,10 +11,83 @@ box-sizing: border-box;
 
 .head {
     position: absolute;
-    width: 200px;
-    height: 100px;
-    border: 2px black;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
     background: lightgray;
-    border-radius: 75%;
+    border-radius: 85%;
+}
+
+.neck {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    background: orange;
+    top: 200px;
+  
+}
+
+.eye { 
+  width: 150px;
+  height: 40px;
+  background: lightgreen;
+  position: absolute;
+  top: 55px;
+  right: 530px;
+  border: 1px solid black;
+  
+}
+
+.ant_right { 
+ position: absolute;
+    width: 100px;
+    height: 15px;
+    border: 1px solid black;
+    background: lightgray;
+    top: 100px;
+    right: 310px;
+   
+}
+.ant_bulb_right {
+  position: absolute;
+   width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: red;
+    top: 85px;
+    right: 285px;
+  border-radius: 50%;
+}
+
+.ant_bulb_left {
+  position: absolute;
+   width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: red;
+    top: 85px;
+    left: 285px;
+  border-radius: 50%;
+}
+
+.ant_left { 
+ position: absolute;
+    width: 100px;
+    height: 15px;
+    border: 1px solid black;
+    background: lightgray;
+    top: 100px;
+    left: 310px;
+}
+
+.mouth{ 
+ position: absolute;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background: darkgray;
+    top: 150px;
+    left: 565px;
 }
 

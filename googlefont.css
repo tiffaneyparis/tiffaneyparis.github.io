@@ -1,9 +1,54 @@
 .container {
 width: 800px;
 margin: 0 auto;
+  
+}
 
+header {
+  
 }
 
 h1 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Abril Fatface', cursive;
+    background: lightgray;
+    font-size: 48px;
+    padding: 5px;
+    margin: 0;
+}
+
+.text_boxes_center {
+  display: flex;
+}
+
+.left_center, middle_center, right_center {
+  width: 230px;
+  height: 450px;
+  
+}
+
+.left_center {
+  background: gray;
+  flex: 33%;
+  padding: 10px;
+  
+}
+
+.middle_center {
+  background: teal;
+  flex: 33%;
+  padding: 10px;
+ 
+  
+  
+  
+ 
+}
+
+.right_center {
+  background: goldenrod;
+  flex: 33%;
+  padding: 10px;
+ 
+  
+ 
 }

@@ -1,19 +1,33 @@
 .container {
-width: 800px;
-margin: 0 auto;
-  
-}
+    width: 800px;
+    margin: 0 auto;  
+    border: 1px solid black;
 
-header {
-  
+    
 }
 
 h1 {
-    font-family: 'Abril Fatface', cursive;
-    background: lightgray;
-    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    background: #476b6b;
+    font-size: 42px;
     padding: 5px;
     margin: 0;
+    text-shadow: 4px 6px 8px #0a0f0f; 
+    color:  #f0f5f5;
+}
+
+h2 {
+  background: #476b6b;
+  margin: 0px;
+  font-size: 16px;
+  font-style: italic;
+  padding: 0 5px 5px 5px;
+  color:  #f0f5f5;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
 }
 
 .text_boxes_center {
@@ -22,33 +36,100 @@ h1 {
 
 .left_center, middle_center, right_center {
   width: 230px;
-  height: 450px;
-  
+  height: 388px;
+  margin: 0; 
 }
 
 .left_center {
-  background: gray;
+  background: #d1e0e0;
   flex: 33%;
   padding: 10px;
-  
+  border: 1px solid black;
 }
 
 .middle_center {
-  background: teal;
+  background: #d1e0e0;
   flex: 33%;
   padding: 10px;
- 
-  
-  
-  
- 
+  border: 1px solid black;
 }
 
 .right_center {
-  background: goldenrod;
+  background: #d1e0e0;
   flex: 33%;
   padding: 10px;
- 
-  
- 
+  text-align: right;
+  border: 1px solid black; 
 }
+
+.text_boxes_bottom {
+  display: flex;
+  margin: 0;
+}
+
+.left_bottom, middle_bottom, right_bottom {
+  width: 230px;
+  height: 290px;
+  padding: 10px;
+  margin: 0;
+}
+
+.left_bottom {
+  background: #94b8b8;
+  padding: 10px;
+  flex: 33%;
+  line-height: 40px;
+  font-weight: bold;
+  border: 1px solid black; 
+}
+
+.middle_bottom {
+  background: #94b8b8;
+  flex: 33%;
+  padding: 10px;
+  text-indent: 40px;
+  border: 1px solid black;
+}
+
+.right_bottom {
+  background: #94b8b8;
+  flex: 33%;
+  padding: 0 10px;
+  border: 1px solid black;
+}
+
+.text_centered {
+  text-align: justify;
+  }
+
+.large_bold {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  font-variant: small-caps;
+  color: #1f2e2e;
+  font-style: oblique;
+}
+
+
+footer {
+  font-family: 'Pathway Gothic One', sans-serif;
+  word-spacing: 14px;  
+  font-size: 13px;
+  letter-spacing: 7px;
+  text-align: center;
+  background: #334d4d;
+  border: 1px solid black;
+  color: whitesmoke;
+   }
+
+.smallrec {
+  padding: 0 0 0 15px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  }

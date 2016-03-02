@@ -121,12 +121,19 @@ footer {
     background: lightgrey;
 }
 
-.footer-links {
-  text-decoration: none;
 
-}
 
 .footer-copyright {
-    text-align: right;
+    text-align: left;
+    margin: 0 675px 0 0;
+    padding: 10px 0 0 10px;
+    font-size: 10px;
    
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    padding: 5px
 }

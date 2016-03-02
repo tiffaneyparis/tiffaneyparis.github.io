@@ -2,16 +2,23 @@
     box-sizing: border-box;
 }
 
+body {
+    background: darkgray;
+}
+
 .main-container {
     width: 1000px;
- margin: 0 auto 0 auto;   
+    margin: 0 auto 0 auto;
+    background: black;
+    
 }
 
 .promo-container {
     color: white;
     font-family: 'Oswald', sans-serif;
-    background-image: url("https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e46ad0c03ce5a81a0541ab625f71f8b");
-  background-position: left top;
+    background-image: url("http://tiffaneyparis.github.io/crop_main.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
   
 }
     

@@ -9,12 +9,12 @@ body {
 .main-container {
     width: 1000px;
     margin: 0 auto 0 auto;
-    background: black;
+    background: white;
     
 }
 
 .promo-container {
-    color: white;
+    color: black;
     font-family: 'Oswald', sans-serif;
     background-image: url("http://tiffaneyparis.github.io/crop_main.jpg");
     background-position: left top;
@@ -40,6 +40,7 @@ header {
     border-radius: 40px 0 40px 0;
     color: white;
     text-decoration: none;   
+    margin: 10px 
 }
 
  .promo {
@@ -113,7 +114,8 @@ header {
 .product-image {
    height: 275px;
     width: 465px;
-    background-image: url("https://tiffaneyparis.github.io/contemporary-desks-for-office-10-contemporary-home-office-furniture-photo.jpg");
+    align: center;
+    background-image: url("https://tiffaneyparis.github.io/Office plan.jpg");
 }
 .product-info {
  text-align: right;   
@@ -124,7 +126,7 @@ header {
 
 #product-reviews {
     background: grey;
-    color: white;
+    color: lightgray;
     text-align: center;
     padding: 50px;
 }

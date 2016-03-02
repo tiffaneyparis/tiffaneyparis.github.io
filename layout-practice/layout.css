@@ -36,9 +36,9 @@ header {
 .pill-button {
     display: inline-block;
     background: gray;
-    padding: 10px 30px 10px 30px;
-    border-radius: 15px 0 15px 0;
-    color: black;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px 0 40px 0;
+    color: white;
     text-decoration: none;   
 }
 
@@ -49,7 +49,7 @@ header {
  }
     
 
-/* Big Promo*/
+
 
 #big-promo {
     padding-top: 200px; 
@@ -60,7 +60,7 @@ header {
     padding: 50px;  
 }
 
-/* Product Features */
+
 
 .product-features, .product-buy-it-now {
     display: flex;  
@@ -79,7 +79,7 @@ header {
     margin: 0 auto 0 auto;
     border-radius: 50%;
     overflow: hidden;   
-   background-image: url("https://images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0aba8189289d2a87a19c94eca5595cda");
+   background-image: url("https://tiffaneyparis.github.io/homeoffice1.jpg");
    background-position: right bottom;
 }
 
@@ -89,7 +89,7 @@ header {
     margin: 0 auto 0 auto;
     border-radius: 50%;
     overflow: hidden;   
-  background-image: url("https://images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0aba8189289d2a87a19c94eca5595cda");
+  background-image: url("https://tiffaneyparis.github.io/home_office2.jpg");
    background-position: left bottom;
 }
   
@@ -100,7 +100,7 @@ header {
     margin: 0 auto 0 auto;
     border-radius: 50%;
     overflow: hidden;   
-  background-image: url("https://images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0aba8189289d2a87a19c94eca5595cda");
+  background-image: url("https://tiffaneyparis.github.io/home-office-3.jpg");
    background-position: center bottom;
 }
 

@@ -105,9 +105,15 @@ header {
 }
 
 
-.product-buy-it-now{
+.product-buy-it-now {
     align-items: center;
+    
 
+}
+.product-image {
+   height: 275px;
+    width: 465px;
+    background-image: url("https://tiffaneyparis.github.io/contemporary-desks-for-office-10-contemporary-home-office-furniture-photo.jpg");
 }
 .product-info {
  text-align: right;   

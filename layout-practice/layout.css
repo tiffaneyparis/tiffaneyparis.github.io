@@ -2,14 +2,17 @@
     box-sizing: border-box;
 }
 
-    
 .main-container {
     width: 1000px;
  margin: 0 auto 0 auto;   
 }
 
 .promo-container {
-    background: lightgray;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e46ad0c03ce5a81a0541ab625f71f8b");
+  background-position: left top;
+  
 }
     
 header {
@@ -17,19 +20,18 @@ header {
 }
 
 .branding {
-    background: black;
-    width: 150px;
+    background: white;
+    width: 300x;
     height: 45px;
     margin-right: auto; 
 }
 
-.pill-button
-{
-  display: inline-block;
+.pill-button {
+    display: inline-block;
     background: gray;
     padding: 10px 30px 10px 30px;
-    border-radius: 20px;
-    color: white;
+    border-radius: 15px 0 15px 0;
+    color: black;
     text-decoration: none;   
 }
 
@@ -64,13 +66,37 @@ header {
 }
     
 
-.feature-image {
+.feature-image1 {
     width: 200px;
     height: 200px;
     margin: 0 auto 0 auto;
     border-radius: 50%;
-    overflow: hidden;    
+    overflow: hidden;   
+   background-image: url("https://images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0aba8189289d2a87a19c94eca5595cda");
+   background-position: right bottom;
 }
+
+.feature-image2 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;   
+  background-image: url("https://images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0aba8189289d2a87a19c94eca5595cda");
+   background-position: left bottom;
+}
+  
+
+.feature-image3 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;   
+  background-image: url("https://images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0aba8189289d2a87a19c94eca5595cda");
+   background-position: center bottom;
+}
+
 
 .product-buy-it-now{
     align-items: center;
@@ -84,7 +110,7 @@ header {
 /* Product Reviews */
 
 #product-reviews {
-    background: skyblue;
+    background: grey;
     color: white;
     text-align: center;
     padding: 50px;
@@ -92,15 +118,15 @@ header {
 
 footer {
     display: flex;
-    background: pink;
+    background: lightgrey;
 }
 
 .footer-links {
+  text-decoration: none;
 
 }
 
 .footer-copyright {
     text-align: right;
-    
-
+   
 }

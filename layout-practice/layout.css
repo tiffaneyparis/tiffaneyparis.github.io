@@ -14,7 +14,7 @@ body {
 }
 
 .promo-container {
-    color: black;
+    color: white;
     font-family: 'Oswald', sans-serif;
     background-image: url("http://tiffaneyparis.github.io/crop_main.jpg");
     background-position: left top;
@@ -107,7 +107,9 @@ header {
 
 
 .product-buy-it-now {
-    align-items: center;
+    align-items: right;
+    margin: 10px;
+    line-height: 3px;
     
 
 }
@@ -115,14 +117,18 @@ header {
    height: 275px;
     width: 465px;
     align: center;
+margin: auto;
     background-image: url("https://tiffaneyparis.github.io/Office plan.jpg");
 }
+
 .product-info {
- text-align: right;   
+ text-align: right; 
+   margin: 0 0 80px 0;
+    
         
 }
 
-/* Product Reviews */
+
 
 #product-reviews {
     background: grey;

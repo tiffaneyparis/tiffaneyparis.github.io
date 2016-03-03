@@ -95,7 +95,7 @@ header {
     background: #D8D8D8;
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: italic;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
 }
     
@@ -109,6 +109,7 @@ header {
 
 .floatright {
     align: flex;
+    border: solid 5px white;
 }
 
 .feature-image1 {
@@ -159,6 +160,7 @@ header {
     width: 465px;
     align: center;
 margin: auto;
+ border: 1px solid black;
     background-image: url("https://tiffaneyparis.github.io/Office plan.jpg");
 }
 
@@ -179,7 +181,7 @@ margin: auto;
     background-image: url("https://tiffaneyparis.github.io/bottom_mirror.jpg");
      background-repeat: no-repeat;
     margin: 0;
-    font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Oswald', sans-serif;
     font-size: 16px;
     line-height: 15px;
        font-style: normal;

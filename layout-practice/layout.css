@@ -6,6 +6,10 @@ body {
     background: darkgray;
 }
 
+a:hover { 
+    background-color: #1ac6ff;
+}
+
 .main-container {
     width: 1000px;
     margin: 0 auto 0 auto;

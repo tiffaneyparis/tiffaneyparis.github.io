@@ -40,7 +40,7 @@ header {
     border-radius: 40px 0 40px 0;
     color: white;
     text-decoration: none;   
-    margin: 10px 
+    margin: 5px 
 }
 
  .promo {
@@ -49,6 +49,16 @@ header {
      font-size: 18px;
  }
     
+.pill-button_buynow {
+    display: inline;
+    background: gray;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px 0 40px 0;
+    color: white;
+    text-decoration: none;   
+    margin: 50px 0 50px 50px;
+    
+}
 
 
 
@@ -58,7 +68,8 @@ header {
 
 .promo-message {
     width: 60%;
-    padding: 50px;  
+    padding: 50px;
+    
 }
 
 
@@ -66,13 +77,23 @@ header {
 .product-features, .product-buy-it-now {
     display: flex;  
     
+    
 }
 
 .feature {
     text-align: center;
     padding: 20px;   
+    background: #D8D8D8;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+    font-size: 14px;
 }
     
+.feature-image {
+    align: right;
+    margin: 0;
+    
+}
 
 .feature-image1 {
     width: 200px;
@@ -109,7 +130,10 @@ header {
 .product-buy-it-now {
     align-items: right;
     margin: 10px;
-    line-height: 3px;
+    line-height: 12px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10px;
+    
     
 
 }
@@ -132,11 +156,12 @@ margin: auto;
 
 #product-reviews {
     background: grey;
-    color: lightgray;
+    color: white;
     text-align: center;
-    padding: 50px;
-    background-image: url("https://tiffaneyparis.github.io/bottom_cropped.jpg");
+    padding: 20px;
+    background-image: url("https://tiffaneyparis.github.io/bottombar.jpg");
      background-repeat: no-repeat;
+    margin: 0;
 }
 
 footer {

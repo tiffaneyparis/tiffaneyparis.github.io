@@ -44,8 +44,10 @@ header {
     border-radius: 40px 0 40px 0;
     color: white;
     text-decoration: none;   
-    margin: 5px 
+    margin: 5px; 
 }
+
+
 
  .promo {
      background: white;
@@ -63,6 +65,9 @@ header {
     margin: 50px 0 50px 50px;
     
 }
+
+
+
 
 
 
@@ -171,11 +176,13 @@ margin: auto;
     color: lightgray;
     text-align: right;
     padding: 20px;
-    background-image: url("https://tiffaneyparis.github.io/bottombar.jpg");
+    background-image: url("https://tiffaneyparis.github.io/bottom_mirror.jpg");
      background-repeat: no-repeat;
     margin: 0;
-    font-family: 'Oswald', sans-serif;
-    font-size: 14px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+       font-style: normal;
     
 }
 

@@ -164,18 +164,22 @@ margin: auto;
 
 #product-reviews {
     background: grey;
-    color: white;
+    color: lightgray;
     text-align: right;
     padding: 20px;
     background-image: url("https://tiffaneyparis.github.io/bottombar.jpg");
      background-repeat: no-repeat;
     margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
     
 }
 
 footer {
     display: flex;
     background: lightgrey;
+    font-family: 'Oswald', sans-serif;
+    
 }
 
 

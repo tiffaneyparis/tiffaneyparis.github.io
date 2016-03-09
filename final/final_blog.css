@@ -35,3 +35,24 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.main_1 {
+    display: flex;
+}
+
+.main_content {
+    background: gray;
+    width: 900;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+.right_image {
+    float: right;
+    margin: 10px;
+    
+}
+
+.left_image {
+    float: left;
+    margin: 10px;
+}

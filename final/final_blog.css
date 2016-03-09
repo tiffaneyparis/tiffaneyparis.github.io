@@ -3,7 +3,7 @@
 }
 
 .pg_container {
-    width: 900px;
+    width: 800px;
     height: auto;
     margin: 0 auto 0 auto;
     background: white;
@@ -12,12 +12,12 @@
 
 .header {
     background: black;
-    width: 900px;
+    width: 800px;
     height: auto;  
     
 }
 
-.navigation li {
+.navigation_top .top {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -27,7 +27,7 @@
 }
 
 .logo {
-    padding: 7px 0px 5px 535px
+    padding: 7px 0px 5px 437px
    
 }
 
@@ -55,4 +55,27 @@ a {
 .left_image {
     float: left;
     margin: 10px;
+}
+
+.footer {
+    background: black;
+    width: 800px;
+    height: auto; 
+    float: right;
+    
+}
+
+.navigation_bottom .bottom {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 25px 10px 10px 0;
+    font-size: 12px;
+    float: right;
+}
+
+.name {
+    color: white;
+    float: right;
+    
 }

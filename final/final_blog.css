@@ -61,15 +61,24 @@ a {
     background: black;
     width: 800px;
     height: auto; 
-    float: right;
+    display: flex;
     
 }
 
-.navigation_bottom .bottom {
+.navigation_bottom {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 25px 10px 10px 0;
+    padding: 0px 10px 10px 0;
+    font-size: 12px;
+    float: right;
+}
+
+.bottom {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 10px 0;
     font-size: 12px;
     float: right;
 }
@@ -77,5 +86,6 @@ a {
 .name {
     color: white;
     float: right;
+    font-size: 10px;
     
 }

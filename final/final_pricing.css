@@ -41,8 +41,9 @@ a {
 .packages {
     width: 800px;
     height: 500px;
-    background: lightyellow;
+    background: lightgray;
     display: flex;
+    
 }
 
 .top_banner {
@@ -51,42 +52,29 @@ a {
 }
 
 .package_info {
+    text-align: center;
     height: 350px;
     width: 220px;
-    background: goldenrod;
+    background: white;
     justify-content: center;
-   border: solid black 1px;
+    padding: 10px;
+    border: solid black 1px;
     margin: 40px 30px 40px 30px;
+    line-height: 1;
 }
 
-
-.name {
-    color: white;
-    font-size: 10px;
-    margin: 0;
-    width: 800px;
+.money_bold {
     
-  
-}
-    
-    .footer {
-    background: black;
-    width: 800px;
-   
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Passion One', cursive; 
 }
 
-.navigation_bottom {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    
+.money_regular {
+    font-size: 40px;
+    font-family: 'Passion One', cursive; 
 }
 
-.bottom {
-    display: inline-block;
-    text-decoration: none;
-   padding: 0px 10px 0px 0;
-    font-size: 12px;
-    
-  
+.italic {
+font-style: italic;
 }

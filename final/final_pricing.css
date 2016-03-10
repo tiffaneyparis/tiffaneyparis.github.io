@@ -40,6 +40,7 @@ a {
     width: 800px;
     height: 500px;
     background: lightyellow;
+    display: flex;
 }
 
 .top_banner {
@@ -47,3 +48,40 @@ a {
     width: 800px;
 }
 
+.package_info {
+    height: 350px;
+    width: 220px;
+    background: goldenrod;
+    justify-content: center;
+   border: solid black 1px;
+    margin: 40px 30px 40px 30px;
+}
+
+
+.name {
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    width: 800px;
+  
+}
+    
+    .footer {
+    background: black;
+    width: 800px;
+   
+}
+
+.navigation_bottom {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+.bottom {
+    display: inline-block;
+    text-decoration: none;
+   padding: 0px 10px 0px 0;
+    font-size: 12px;
+}

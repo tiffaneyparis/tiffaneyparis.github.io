@@ -6,13 +6,14 @@
     width: 800px;
     height: auto;
     margin: 0 auto 0 auto;
-    background: white;
-   
-   
+    background: white; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
 }
 
+
 .header {
-    background: black;
+    background: red;
     width: 800px;
     height: auto;  
     
@@ -22,14 +23,13 @@
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 25px 10px 10px 0;
+    margin: 25px 10px 10px 0;
     font-size: 12px;
     float: left;
 }
 
 .logo {
-    padding: 7px 0px 5px 437px
-   
+    margin: 7px 0px 5px 339px;
 }
 
 a {
@@ -37,15 +37,17 @@ a {
     color: white;
 }
 
+
 .main_1 {
     display: flex;
 }
 
 .main_content {
     background: gray;
-    width: 900;
+    width: 800px;
     height: auto;
     margin: 0 auto 0 auto;
+    padding: 15px;
 }
 .right_image {
     float: right;
@@ -58,40 +60,10 @@ a {
     margin: 10px;
 }
 
-.footer {
-    background: black;
-    width: 800px;
-    height: inherit; 
-    display: flex;
-    padding: 0 0 0 534px;
-    margin: 0;
-}
-
-.navigation_bottom {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    
-}
-
-.bottom {
-    display: inline-block;
-    text-decoration: none;
-   padding: 0px 10px 0px 0;
-    font-size: 12px;
-}
 
 .bold_text {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Passion One', cursive; 
 }
 
-.name {
-    color: white;
-    font-size: 10px;
-    margin: 0;
-    width: 800px;
-    text-align: right;
-    background: black;
-    padding: 0 10px 5px 0;
-}

@@ -7,27 +7,30 @@
     height: auto;
     margin: 0 auto 0 auto;
     background: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
    
 }
 
 .header {
-    background: black;
+    background: red;
     width: 800px;
     height: auto;  
     
 }
 
-.navigation li {
+.navigation_top .top {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 25px 10px 10px 0;
+    margin: 25px 10px 10px 0;
     font-size: 12px;
     float: left;
 }
 
 .logo {
-    padding: 7px 0px 5px 437px
+    margin: 7px 0px 5px 339px;
+       
    
 }
 

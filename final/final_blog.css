@@ -82,7 +82,8 @@ a {
 }
 
 .bold_text {
-    font-weight: 800; 
+    font-weight: 800;
+    font-size: 30px;
 }
 
 .name {

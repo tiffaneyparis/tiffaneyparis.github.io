@@ -8,6 +8,7 @@
     margin: 0 auto 0 auto;
     background: white;
    
+   
 }
 
 .header {
@@ -60,33 +61,36 @@ a {
 .footer {
     background: black;
     width: 800px;
-    height: auto; 
+    height: inherit; 
     display: flex;
-    
+    padding: 0 0 0 534px;
+    margin: 0;
 }
 
 .navigation_bottom {
-    display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 12px;
-  
+    
 }
 
 .bottom {
     display: inline-block;
     text-decoration: none;
-   padding: 0px 10px 10px 0;
+   padding: 0px 10px 0px 0;
     font-size: 12px;
-    
-   
+}
+
+.bold_text {
+    font-weight: 800; 
 }
 
 .name {
-    color: red;
+    color: white;
     font-size: 10px;
-    margin: 40px 0 0 10px;
-    display: inline-block;
-    float: right;
-    
+    margin: 0;
+    width: 800px;
+    text-align: right;
+    background: black;
+    padding: 0 10px 5px 0;
 }

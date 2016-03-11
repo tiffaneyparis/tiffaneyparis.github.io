@@ -92,14 +92,6 @@ footer {
     font-size: 10px;
 }
 
-.navigation_bottom .bottom {
-     display: inline-block;
-    text-decoration: none;
-    color: black;
-    margin: 25px 10px 10px 0;
-    font-size: 12px;
-    float: right;
-}
 
 .convinced {
  background: lightgray;

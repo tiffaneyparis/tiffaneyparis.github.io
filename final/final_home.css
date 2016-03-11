@@ -44,7 +44,8 @@ a {
 
 .sign_up_text {
     position: relative;
-    color: white;
+    color: black;
     bottom: 300px;
     margin: 0px 200px 40px 200px;
+    text-align: center;
 }

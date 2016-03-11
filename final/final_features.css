@@ -35,3 +35,13 @@ a {
     color: black;
 }
 
+footer {
+    background: #00CCCC;
+    display: flex;
+}
+
+.footer-container {
+    margin-left: auto;
+    text-align: right;
+    font-size: 12px;   
+}

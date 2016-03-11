@@ -44,8 +44,19 @@ a {
 
 .sign_up_text {
     position: relative;
-    color: black;
+    color: white;
     bottom: 300px;
     margin: 0px 200px 40px 200px;
     text-align: center;
+}
+
+.button {
+   
+    background: gray;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px 0 40px 0;
+    color: white;
+    text-decoration: none;   
+    margin: 50px 0 50px 50px;
+    
 }

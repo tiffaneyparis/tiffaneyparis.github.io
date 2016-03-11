@@ -42,7 +42,7 @@ a {
 }
 
 .main_content {
-    background: gray;
+    background: lightgray;
     width: 800px;
     height: auto;
     margin: 0 auto 0 auto;
@@ -75,6 +75,5 @@ footer {
     text-align: right;
     font-size: 12px;
     padding: 10px 10px 0 0;
-
 }
 

@@ -9,8 +9,8 @@
     background: black;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
-   
 }
+
 .header {
     background: #00CCCC;
     width: 800px;
@@ -85,14 +85,11 @@ footer {
 .footer-container {
     margin-left: auto;
     text-align: right;
-    font-size: 12px;
-    
-    
+    font-size: 12px;   
 }
 
 .name {
     font-size: 10px;
-    
 }
 
 .navigation_bottom .bottom {
@@ -106,10 +103,8 @@ footer {
 
 .convinced {
  background: lightgray;
-    
 }
 
 .not_convinced {
-    color: black;
-    
+    color: black;  
 }

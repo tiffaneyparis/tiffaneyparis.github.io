@@ -11,12 +11,10 @@
     font-size: 14px;
 }
 
-
 .header {
     background: #00CCCC;
     width: 800px;
     height: auto;  
-    
 }
 
 .navigation_top .top {
@@ -28,15 +26,16 @@
     float: left;
 }
 
+
 .logo {
     margin: 7px 0px 5px 339px;
 }
+
 
 a {
     text-decoration: none;
     color: black;
 }
-
 
 .main_1 {
     display: flex;
@@ -49,17 +48,16 @@ a {
     margin: 0 auto 0 auto;
     padding: 15px;
 }
+
 .right_image {
     float: right;
-    margin: 10px;
-    
+    margin: 10px; 
 }
 
 .left_image {
     float: left;
     margin: 10px;
 }
-
 
 .bold_text {
     font-weight: 800;

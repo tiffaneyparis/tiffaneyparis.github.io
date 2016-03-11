@@ -9,6 +9,7 @@
     background: black;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
+   
 }
 
 .header {
@@ -38,6 +39,12 @@ a {
 .sign_up_today {
     width: 800px;
     height: auto;
+    position: absolute;
 }
 
-
+.sign_up_text {
+    position: relative;
+    color: white;
+    bottom: 300px;
+    margin: 0px 200px 40px 200px;
+}

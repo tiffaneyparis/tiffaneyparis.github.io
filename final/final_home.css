@@ -44,7 +44,7 @@ a {
 .sign_up_text {
     position: relative;
     color: white;
-    bottom: 300px;
+    bottom: 350px;
     margin: 0px 200px 0px 200px;
     text-align: center;
 }
@@ -86,7 +86,7 @@ a {
 }
 
 .feature_section {
-   padding: 20px;
+   padding: 10px;
 
 }
 
@@ -98,7 +98,9 @@ footer {
 .footer-container {
     margin-left: auto;
     text-align: right;
-    font-size: 12px;   
+    font-size: 12px; 
+    padding: 10px 10px 0 0;
+    line-height: 5px;
 }
 
 .bottom_section {
@@ -114,8 +116,32 @@ footer {
     
 }
 
+.med_text {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.sm_text {
+    font-size: 11px;
+    
+}
 
 .r_floater {
     float: right;
     padding: 20px;
+}
+
+.giant_text {
+    font-size: 30px;
+    margin: 10px;
+    
+}
+
+.center_text {
+    font-size: 13px;
+    
+}
+
+.name {
+    font-size: 10px;
 }

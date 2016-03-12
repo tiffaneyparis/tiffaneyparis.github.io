@@ -50,13 +50,13 @@ a {
 
 .package_info {
     text-align: center;
-    height: 350px;
+    height: 345px;
     width: 220px;
     background: white;
     justify-content: center;
     padding: 10px;
     border: solid black 1px;
-    margin: 40px 30px 40px 30px;
+    margin: 20px 20px 40px 30px;
     line-height: 1;
 }
 
@@ -74,9 +74,12 @@ a {
 
 .italic {
 font-style: italic;
-    
 }
 
+.med_text {
+    font-weight: 900;
+    font-size: 20px;
+}
 footer {
     background: #00CCCC;
     display: flex;

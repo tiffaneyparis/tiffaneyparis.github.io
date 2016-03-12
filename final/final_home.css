@@ -62,7 +62,7 @@ a {
 
 .features {
     display: flex;
-    background: red;
+    background: lightgreen;
     margin: 0;
     padding: 0;
     width: 800px;
@@ -104,11 +104,12 @@ footer {
 .bottom_section {
     width: 800px;
     height: 280px;
-    background: yellow;
+    background: cornsilk;
   display: flex;
 }
 
 .text { 
+    padding: 40px;
    
     
 }

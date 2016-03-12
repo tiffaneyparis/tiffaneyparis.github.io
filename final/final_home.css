@@ -65,7 +65,7 @@ a {
     background: red;
     margin: 0;
     padding: 0;
-    width: 800 px;
+    width: 800px;
     height: auto;
     
 }
@@ -86,8 +86,8 @@ a {
 }
 
 .feature_section {
-   
-    
+   padding: 20px;
+
 }
 
 footer {
@@ -99,4 +99,22 @@ footer {
     margin-left: auto;
     text-align: right;
     font-size: 12px;   
+}
+
+.bottom_section {
+    width: 800px;
+    height: 280px;
+    background: yellow;
+  display: flex;
+}
+
+.text { 
+   
+    
+}
+
+
+.r_floater {
+    float: right;
+    padding: 20px;
 }

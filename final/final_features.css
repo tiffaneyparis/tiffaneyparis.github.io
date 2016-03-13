@@ -24,6 +24,7 @@
     margin: 25px 10px 10px 0;
     font-size: 12px;
     float: left;
+    font-weight: 600;
 }
 
 .logo {
@@ -119,4 +120,8 @@ footer {
     margin: 0;
     text-align: center;
     background: #FFFCD8;
+}
+
+.underline {
+    text-decoration: underline;
 }

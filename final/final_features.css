@@ -6,7 +6,7 @@
     width: 800px;
     height: auto;
     margin: 0 auto 0 auto;
-    background: #FFFCD8;
+    background: #fae596;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px; 
 }
@@ -87,7 +87,7 @@ footer {
 
 .main {
     padding: 0 20px 0 20px;
-    background: #FFFCD8; 
+    background: #fae596; 
 }
 
 .med_padding {
@@ -112,14 +112,14 @@ footer {
 
 .fives {
     margin: 0;
-    background: #FFFCD8;
+    background: #fae596;
 }
 
 .last {
     padding: 0 200px 20px 200px;
     margin: 0;
     text-align: center;
-    background: #FFFCD8;
+    background: #fae596;
 }
 
 .underline {

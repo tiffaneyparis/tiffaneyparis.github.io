@@ -60,7 +60,7 @@ a {
 
 .features {
     display: flex;
-    background: #FFFCD8;
+    background: #fae596;
     margin: 0;
     padding: 0;
     width: 800px;
@@ -99,7 +99,7 @@ footer {
 .bottom_section {
     width: 800px;
     height: 280px;
-    background: #FFFCD8;
+    background: #fae596;
     display: flex;
 }
 

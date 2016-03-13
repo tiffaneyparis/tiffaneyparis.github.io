@@ -55,11 +55,13 @@ a:hover {
 .right_image {
     float: right;
     margin: 10px; 
+    border: #F37D37 solid 5px;
 }
 
 .left_image {
     float: left;
     margin: 10px;
+    border: #F37D37 solid 5px;
 }
 
 .bold_text {

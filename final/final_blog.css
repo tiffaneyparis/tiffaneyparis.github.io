@@ -5,14 +5,13 @@
 .pg_container {
     width: 800px;
     height: auto;
-    margin: 0 auto 0 auto;
-    background: black; 
+    margin: 0 auto 0 auto; 
     font-family: 'PT Sans', sans-serif;
     font-size: 12px;
 }
 
 .header {
-    background: #00CCCC;
+    background: #39CCCC;
     width: 800px;
     height: auto;  
 }
@@ -41,7 +40,7 @@ a {
 }
 
 .main_content {
-    background: lightgray;
+    background: #FFFCD8;
     width: 800px;
     height: auto;
     margin: 0 auto 0 auto;
@@ -65,7 +64,7 @@ a {
 }
 
 footer {
-    background: #00CCCC;
+    background: #39CCCC;
     display: flex;
 }
 

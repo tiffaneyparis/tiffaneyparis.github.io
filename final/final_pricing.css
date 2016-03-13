@@ -12,7 +12,7 @@
 }
 
 .header {
-    background: #00CCCC;
+    background: #39CCCC;
     width: 800px;
     height: auto;     
 }
@@ -38,7 +38,7 @@ a {
 .packages {
     width: 800px;
     height: 400px;
-    background: #CEDBDB;
+    background: #FFFCD8;
     display: flex;
 }
 
@@ -87,7 +87,7 @@ a {
 }
 
 footer {
-    background: #00CCCC;
+    background: #39CCCC;
     display: flex;  
 }
 
@@ -105,7 +105,7 @@ footer {
 
 
 .convinced {
-    background: #CEDBDB;
+    background: #FFFCD8;
     text-align: center;
     font-size: 12px;
     padding: 0px 100px 20px 100px;

@@ -10,7 +10,7 @@
 }
 
 .header {
-    background: #5ECCC3;
+    background: #39CCCC;
     width: 800px;
     height: auto;  
 }
@@ -58,7 +58,7 @@ a {
 
 .features {
     display: flex;
-    background: #C4CFCA;
+    background: #FFFCD8;
     margin: 0;
     padding: 0;
     width: 800px;
@@ -82,7 +82,7 @@ a {
 }
 
 footer {
-    background: #5ECCC3;
+    background: #39CCCC;
     display: flex;
 }
 

@@ -27,8 +27,7 @@
 }
 
 .logo {
-    margin: 7px 0px 5px 339px;
-        
+    margin: 7px 0px 5px 339px;       
 }
 
 a {
@@ -59,7 +58,6 @@ a {
     margin: 20px 20px 40px 30px;
     line-height: 1;
     position: relative;
-
 }
 
 .money_bold {
@@ -76,8 +74,7 @@ a {
 }
 
 .italic {
-font-style: italic;
-    
+    font-style: italic; 
 }
 
 .med_text {
@@ -91,8 +88,7 @@ font-style: italic;
 
 footer {
     background: #00CCCC;
-    display: flex;
-    
+    display: flex;  
 }
 
 .footer-container {
@@ -109,7 +105,7 @@ footer {
 
 
 .convinced {
- background: #CEDBDB;
+    background: #CEDBDB;
     text-align: center;
     font-size: 12px;
     padding: 0px 100px 20px 100px;
@@ -117,73 +113,59 @@ footer {
 
 .not_convinced {
     color: black; 
-    font-size: 26px;
-    
+    font-size: 26px; 
 }
 
 .button {
-   
     background: white;
     padding: 5px 20px 5px 20px;
     border-radius: 2px;
     color: black;
     text-decoration: none;   
-    font-size: 11px;
-    
-    
+    font-size: 11px; 
 }
-.buy_button1 {
-   
-    background: white;
-    padding: 5px 20px 5px 20px;
-    border-radius: 2px;
-    color: black;
-    text-decoration: none;   
-    font-size: 11px;
-  
-    
-}
-.buy_button2 {
-   
-    background: white;
-    padding: 5px 20px 5px 20px;
-    border-radius: 2px;
-    color: black;
-    text-decoration: none;   
-    font-size: 11px;
-  
-    
-    
 
-    
-}
-.buy_button3 {
-   
+.buy_button1 {
     background: white;
     padding: 5px 20px 5px 20px;
     border-radius: 2px;
     color: black;
     text-decoration: none;   
-    font-size: 11px;
-   
-    
-    
+    font-size: 11px; 
+}
+
+.buy_button2 {
+    background: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 2px;
+    color: black;
+    text-decoration: none;   
+    font-size: 11px;   
+}
+
+.buy_button3 {
+    background: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 2px;
+    color: black;
+    text-decoration: none;   
+    font-size: 11px;  
 }
     
 .container1 { 
-position: absolute;
+    position: absolute;
     top: 320px;
     right: 60px
 }
 
 .container2 { 
-position: absolute;
+    position: absolute;
     top: 320px;
     right: 60px
 }
 
 .container3 { 
-position: absolute;
+    position: absolute;
     top: 320px;
     right: 60px
 }

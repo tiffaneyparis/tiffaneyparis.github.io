@@ -7,7 +7,6 @@
     height: auto;
     margin: 0 auto 0 auto;
     background: #CEDBDB;
-    
     font-family: 'PT Sans', sans-serif;
     font-size: 14px; 
 }
@@ -37,7 +36,7 @@ a {
 }
 
 .feature1234 {
-   display: flex;
+    display: flex;
     margin: 20px;
 }
 
@@ -53,46 +52,41 @@ footer {
     padding: 10px 10px 0 0;
     line-height: 5px;
 }
+
 .name {
     font-size: 10px;
 }
 
 .top_box  {
     display: flex;
-     margin: 20px;
+    margin: 20px;
 }
 
 .small_text {
-    font-size: 11px;
-    
+    font-size: 11px;  
 }
 
 .big_text {
     font-weight: 900;
     font-size: 16px;
-
 }
 
 .bottom_box {
     display: flex;
     margin: 20px;
-
 }
 
 .small_feature_pic {
     margin: 5px 10px 0 0px;
-    
-}
-.big_pic {
-    padding: 0 0 20px 0;
-    
 }
 
+.big_pic {
+    padding: 0 0 20px 0;
+}
 
 .main {
     padding: 0 20px 0 20px;
-    background: #CEDBDB;
-    
+    background: #CEDBDB; 
 }
 
 .med_padding {
@@ -101,21 +95,19 @@ footer {
 }
   
 .button {
-   
     background: white;
     padding: 5px 20px 5px 20px;
     border-radius: 2px;
     color: black;
     text-decoration: none;   
     font-size: 11px;
-    
 }
+
 .fiver {
     display: inline-flex;
     margin: 0 0 0 20px; 
-   
-    
 }
+
 .fives {
     margin: 0;
     background: #CEDBDB;

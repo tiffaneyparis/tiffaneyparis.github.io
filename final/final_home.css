@@ -6,9 +6,7 @@
     width: 800px;
     margin: 0 auto 0 auto;
     font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
-    
-   
+    font-size: 14px; 
 }
 
 .header {
@@ -50,14 +48,12 @@ a {
 }
 
 .button {
-   
     background: white;
     padding: 5px 20px 5px 20px;
     border-radius: 2px;
     color: black;
     text-decoration: none;   
     font-size: 11px;
-    
 }
 
 .features {
@@ -66,14 +62,11 @@ a {
     margin: 0;
     padding: 0;
     width: 800px;
-    height: auto;
-    
+    height: auto;  
 }
 
 .feature_pics {
-    margin: 0px;
-    
-    
+    margin: 0px;    
 }
 
 .features {
@@ -82,12 +75,10 @@ a {
     justify-content: center;
     margin: 0px;
     padding: 20px;
-   
 }
 
 .feature_section {
    padding: 10px;
-
 }
 
 footer {
@@ -107,13 +98,11 @@ footer {
     width: 800px;
     height: 280px;
     background: #FFFCD8;
-  display: flex;
+    display: flex;
 }
 
 .text { 
-    padding: 40px;
-   
-    
+    padding: 40px;  
 }
 
 .med_text {
@@ -122,8 +111,7 @@ footer {
 }
 
 .sm_text {
-    font-size: 11px;
-    
+    font-size: 11px;  
 }
 
 .r_floater {
@@ -133,13 +121,11 @@ footer {
 
 .giant_text {
     font-size: 30px;
-    margin: 10px;
-    
+    margin: 10px; 
 }
 
 .center_text {
-    font-size: 13px;
-    
+    font-size: 13px; 
 }
 
 .name {

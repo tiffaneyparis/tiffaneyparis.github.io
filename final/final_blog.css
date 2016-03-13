@@ -36,6 +36,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color: #F37D37;
+}
+
 .main_1 {
     display: flex;
 }

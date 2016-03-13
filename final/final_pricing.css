@@ -11,6 +11,10 @@
     font-size: 14px;
 }
 
+a:hover {
+    color: #F37D37;
+}
+
 .header {
     background: #39CCCC;
     width: 800px;

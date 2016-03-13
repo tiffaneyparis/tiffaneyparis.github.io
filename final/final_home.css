@@ -34,6 +34,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color: #F37D37;
+}
+
 .sign_up_today {
     width: 800px;
    height: 400px;

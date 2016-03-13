@@ -77,6 +77,10 @@ footer {
     margin: 20px;
 }
 
+a:hover {
+    color: #F37D37;
+}
+
 .small_feature_pic {
     margin: 5px 10px 0 0px;
 }

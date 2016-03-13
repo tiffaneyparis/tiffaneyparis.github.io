@@ -39,7 +39,7 @@ a {
 .packages {
     width: 800px;
     height: 400px;
-    background: lightgray;
+    background: #CEDBDB;
     display: flex;
 }
 
@@ -52,7 +52,7 @@ a {
     text-align: center;
     height: 350px;
     width: 220px;
-    background: yellow;
+    background: #F37D37;
     justify-content: center;
     padding: 0 20px 0 20px;
     border: solid black 1px;
@@ -109,7 +109,7 @@ footer {
 
 
 .convinced {
- background: lightgray;
+ background: #CEDBDB;
     text-align: center;
     font-size: 12px;
     padding: 0px 100px 20px 100px;

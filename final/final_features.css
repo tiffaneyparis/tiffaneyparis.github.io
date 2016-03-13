@@ -6,6 +6,7 @@
     width: 800px;
     height: auto;
     margin: 0 auto 0 auto;
+    background: #CEDBDB;
     
     font-family: 'PT Sans', sans-serif;
     font-size: 14px; 
@@ -90,6 +91,7 @@ footer {
 
 .main {
     padding: 0 20px 0 20px;
+    background: #CEDBDB;
     
 }
 
@@ -111,13 +113,17 @@ footer {
 .fiver {
     display: inline-flex;
     margin: 0 0 0 20px; 
+   
+    
 }
 .fives {
     margin: 0;
+    background: #CEDBDB;
 }
 
 .last {
     padding: 0 200px 20px 200px;
     margin: 0;
     text-align: center;
+    background: #CEDBDB
 }

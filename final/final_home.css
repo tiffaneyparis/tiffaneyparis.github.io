@@ -7,12 +7,12 @@
     margin: 0 auto 0 auto;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
-    background: blue;
+    
    
 }
 
 .header {
-    background: #00CCCC;
+    background: #5ECCC3;
     width: 800px;
     height: auto;  
 }
@@ -62,7 +62,7 @@ a {
 
 .features {
     display: flex;
-    background: lightgreen;
+    background: #C4CFCA;
     margin: 0;
     padding: 0;
     width: 800px;
@@ -91,7 +91,7 @@ a {
 }
 
 footer {
-    background: #00CCCC;
+    background: #5ECCC3;
     display: flex;
 }
 
@@ -106,7 +106,7 @@ footer {
 .bottom_section {
     width: 800px;
     height: 280px;
-    background: cornsilk;
+    background: #FFFCD8;
   display: flex;
 }
 

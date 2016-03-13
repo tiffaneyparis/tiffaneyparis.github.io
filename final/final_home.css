@@ -72,7 +72,8 @@ a:hover {
 }
 
 .feature_pics {
-    margin: 0px;    
+    margin: 0px;   
+    border: #F37D37 solid 4px;
 }
 
 .features {
@@ -123,6 +124,7 @@ footer {
 .r_floater {
     float: right;
     padding: 20px;
+   
 }
 
 .giant_text {
